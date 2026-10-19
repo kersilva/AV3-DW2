@@ -4,9 +4,7 @@ export default async function desativarVendedor(id) {
   const query = "UPDATE vendedores SET ativo = false WHERE id_vendedor = ?";
 
   try {
-    const [result] = await conexao.execute(
-      query[(id)],
-    );
+    const [result] = await conexao.execute(query, [id]);
 
     return result.affectedRows > 0;
   } catch (error) {

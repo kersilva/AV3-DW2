@@ -1,4 +1,4 @@
-import conexao from "#/config/db.js";
+import conexao from "#src/config/db.js";
 
 export default async function atualizarVendedor(id, metaMensal, percentualBase) {
   const query = "UPDATE vendedores SET meta_mensal = ?, percentual_base = ? WHERE id_vendedor = ?";

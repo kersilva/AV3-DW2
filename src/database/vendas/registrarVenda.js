@@ -1,5 +1,5 @@
-import conexao from "#/config/db.js";
-import calcularComissao from "#/services/calcularComissao.js";
+import conexao from "#src/config/db.js";
+import calcularComissao from "#src/services/calcularComissao.js";
 
 export default async function registrarVenda(
   idVendedor,

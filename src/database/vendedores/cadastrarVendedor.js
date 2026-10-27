@@ -1,4 +1,4 @@
-import conexao from "#/config/db.js";
+import conexao from "#src/config/db.js";
 
 export default async function cadastrarVendedor(nome, metaMensal, percentualBase) {
   const query = 'INSERT INTO vendedores (nome, meta_mensal, percentual_base) VALUES (?, ?, ?)';

@@ -1,4 +1,4 @@
-import conexao from "#/config/db.js";
+import conexao from "#src/config/db.js";
 
 export default async function gerarRelatorioPerformance(dataInicial, dataFinal) {
   if (!dataInicial || !dataFinal) throw new Error('Data inicial e/ou final inválida')

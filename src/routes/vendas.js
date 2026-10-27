@@ -1,9 +1,9 @@
 import { Router } from "express";
-import registrarVenda from "#/database/vendas/registrarVenda.js";
-import excluirVenda from "#/database/vendas/excluirVenda.js";
-import listarVendas from "#/database/vendas/listarVendas.js";
-import consultarVendasPorVendedor from "#/database/vendas/consultarVendasPorVendedor.js";
-import consultarVendasPorRegiao from "#/database/vendas/consultarVendasPorRegiao.js";
+import registrarVenda from "#src/database/vendas/registrarVenda.js";
+import excluirVenda from "#src/database/vendas/excluirVenda.js";
+import listarVendas from "#src/database/vendas/listarVendas.js";
+import consultarVendasPorVendedor from "#src/database/vendas/consultarVendasPorVendedor.js";
+import consultarVendasPorRegiao from "#src/database/vendas/consultarVendasPorRegiao.js";
 
 const router = Router();
 

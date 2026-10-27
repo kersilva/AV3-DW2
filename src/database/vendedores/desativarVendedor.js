@@ -1,4 +1,4 @@
-import conexao from "#/config/db.js";
+import conexao from "#src/config/db.js";
 
 export default async function desativarVendedor(id) {
   const query = "UPDATE vendedores SET ativo = false WHERE id_vendedor = ?";

@@ -1,4 +1,4 @@
-import conexao from "#/config/db.js";
+import conexao from "#src/config/db.js";
 
 export default async function consultarVendasPorVendedor(id) {
   const query = 'SELECT * FROM vendas WHERE id_vendedor = ?';

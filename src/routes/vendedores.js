@@ -1,9 +1,9 @@
 import { Router } from "express";
-import conexao from "#/config/db.js";
-import atualizarVendedor from "#/database/vendedores/atualizarVendedor.js";
-import cadastrarVendedor from "#/database/vendedores/cadastrarVendedor.js";
-import desativarVendedor from "#/database/vendedores/desativarVendedor.js";
-import listarVendedores from "#/database/vendedores/listarVendedores.js";
+import conexao from "#src/config/db.js";
+import atualizarVendedor from "#src/database/vendedores/atualizarVendedor.js";
+import cadastrarVendedor from "#src/database/vendedores/cadastrarVendedor.js";
+import desativarVendedor from "#src/database/vendedores/desativarVendedor.js";
+import listarVendedores from "#src/database/vendedores/listarVendedores.js";
 
 const router = Router();
 

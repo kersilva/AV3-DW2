@@ -1,5 +1,5 @@
 import { Router } from "express";
-import gerarRelatorioPerformance from "#/services/gerarRelatorioPerformance.js";
+import gerarRelatorioPerformance from "#src/services/gerarRelatorioPerformance.js";
 
 const router = Router();
 
